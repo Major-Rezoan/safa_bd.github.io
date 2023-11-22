@@ -239,20 +239,11 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 
-@media (max-width: 979px){
 #hero {
   background-image: url("../img/hero-bg.jpg") top center;
   width: 100%;
   background-size: cover;
   height: 100vh;
-}
-
-  #hero {
-    background-image: url("../img/hero-bg.jpg") top center;
-    width: 100%;
-    background-size: cover;
-    height: 100vh;
-  }
 }
   
 #hero:before {
