@@ -240,9 +240,18 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100vw;
-  height: auto;
-  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+
+  @media screen and (max-width: 769px) {
+  .hero {
+    background: url("../img/hero-bg.jpg") top center;
+    height: auto;
+  }
+
+  html {
+    background: none;
+  }
+}
 }
 
 #hero:before {
