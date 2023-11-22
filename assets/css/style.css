@@ -239,21 +239,21 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100vw;
+  width: 100%;
   background-size: cover;
 
-  @media screen and (max-width: 769px) {
-  .hero {
-    background: url("../img/hero-bg.jpg") top center;
-    height: auto;
+@media (max-width: 979px){
+  #hero {
+    background-image: url("../img/hero-bg.jpg") top center;
+    height: 100vh;
   }
 
-  html {
-    background: none;
+  #hero {
+    background-image: url("../img/hero-bg.jpg") top center;
   }
 }
 }
-
+  
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
