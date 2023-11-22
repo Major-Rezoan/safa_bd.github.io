@@ -241,7 +241,7 @@ h6 {
 #hero {
   width: auto;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg.jpg") top right;
   background-size: cover;
 }
 
